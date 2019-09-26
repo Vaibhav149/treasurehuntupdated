@@ -1,0 +1,124 @@
+.rowButton{
+    font-family: raleway;
+    height: 50px;
+    width: 100px;
+    background-color:#F98349;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+        margin-top: 30px;
+}
+
+.rows{
+    
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: raleway;
+ }
+
+ .column{
+    
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: raleway;
+ }
+
+ #rowInput{
+    
+     width: 100px;
+     height: 50px;
+     margin-top: 30px;
+ }
+
+ #columnInput{
+    
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+ .right{
+     display: inline-block;
+     width: 50%;
+ }
+
+ .left{
+    display: inline-block;
+}
+
+#id{
+    font-size: 20px;
+    font-family: raleway;
+}
+
+.createButton{
+    margin-top: 50px;
+    
+}
+
+#create{
+    width: 150px;
+    height: 90px;
+}
+
+.block{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}
+
+#gameover{
+    text-align:center;
+	font-weight: 600;
+	margin-top:20px;
+
+}
+
+#game{
+	position: relative;
+	display:inline-block;
+	/*left: 30px;*/
+    text-align:center;
+    border: 1px solid black;
+}
+
+.game-button{
+	width: 75px;
+	height: 75px;
+	padding: 0;
+	margin: 0 1px;
+	cursor: pointer;
+	background:#F38F5E;
+    border: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.game-button:hover{
+	background: rgba(255,255,255,0.9);
+	transition-duration: 0.5s;
+}
+
+.game-button:disabled{
+	cursor: not-allowed;
+}
+
+.clear{
+	clear:both;
+}
+
+#reset{
+    width: 150px;
+    height: 90px;
+}
+
+.buttonReset{
+    height: 80px;
+    width: 100px;
+
+    margin-top: 30px;
+}

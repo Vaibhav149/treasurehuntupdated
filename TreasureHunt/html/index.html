@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="../css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" href="../css/index.css" rel="stylesheet">
+  <script src="../scripts/treaurehunt.js"></script> 
+  <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 40px; font-weight: 900; font-family: raleway;color: brown; text-align: center;">WELCOME TO TREASURE HUNT GAME</div>
+        
+        <div class="left">
+        <div class="rows">
+            Enter the number of rows
+           <div>
+                <input type="text" id="rowInput" ></input>
+            </div>
+               
+        </div>
+
+        <div class="column">
+             Enter the number of column
+                <div> 
+                    <input type="text" id="columnInput" ></input>
+                </div>
+        </div>
+        <div class="createButton">
+        <button id="create" onclick="matrixValue()">Create
+            </button>
+        </div>
+
+           <div class="buttonReset">
+
+            <button id="reset" onclick="blockReset()" type="reset">Reset
+            </button>
+        </div>
+                
+        </div>
+        <div class="right" id="right">
+            <div id="block" >
+                
+            </div>
+        </div>
+      </div>
+    </body>
+    </html>
